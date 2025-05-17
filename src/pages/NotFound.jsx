@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getIcon } from '../utils/iconUtils';
+import { getIcon } from '../utils/iconUtils.jsx';
 
 const NotFound = () => {
   const navigate = useNavigate();

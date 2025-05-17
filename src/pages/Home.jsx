@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { getIcon } from '../utils/iconUtils';
+import { getIcon } from '../utils/iconUtils.jsx';
 import MainFeature from '../components/MainFeature';
 
 const Home = () => {

@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import { motion } from 'framer-motion';
 import Home from './pages/Home';
-import NotFound from './pages/NotFound';
+import NotFound from './pages/NotFound.jsx';
 import { getIcon } from './utils/iconUtils';
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />{/* Use the component directly, it imports iconUtils.jsx */}
       </Routes>
 
       <ToastContainer
