@@ -31,6 +31,9 @@ export default {
           900: '#0f172a'   // Darkest
         }      
       },
+      spacing: {
+        'kanban-gap': '1.5rem', // 24px
+      },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         heading: ['Inter', 'ui-sans-serif', 'system-ui']

@@ -67,6 +67,14 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  /* Basic styles for Kanban board layout */
+  .kanban-board {
+    display: flex;
+    gap: theme('spacing.kanban-gap');
+    overflow-x: auto; /* Enable horizontal scrolling if columns overflow */
+    padding-bottom: 1rem; /* Add padding for scrollbar space */
+  }
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
